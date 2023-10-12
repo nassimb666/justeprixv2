@@ -1,0 +1,56 @@
+html,
+body {
+  min-width: 500px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  color: #ff7315;
+  text-align: center;
+  font-size: 3em;
+}
+
+
+.instruction {
+  padding: 15px;
+  margin: 10px 0;
+}
+
+.plus {
+  background-color: #f67280;
+}
+
+.moins {
+  background-color: #ffa372;
+}
+
+.fini {
+  background-color: #0c9463;
+}
+
+img {
+  width: 20rem;
+  justify-content: center;
+}
+
+#boom {
+  display: none;
+}
+
+#more {
+  display: none;
+}
+
+#less {
+  display: none;
+}
+
+#loose{
+    display: none;
+}
