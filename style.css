@@ -1,56 +1,84 @@
-html,
-body {
-  min-width: 500px;
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffa372;
+  font-family: Arial, sans-serif;
 }
 
 body {
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
-}
-
-header {
-  color: #ff7315;
-  text-align: center;
-  font-size: 3em;
-}
-
-
-.instruction {
-  padding: 15px;
-  margin: 10px 0;
-}
-
-.plus {
-  background-color: #f67280;
-}
-
-.moins {
-  background-color: #ffa372;
-}
-
-.fini {
-  background-color: #0c9463;
-}
-
-img {
-  width: 20rem;
   justify-content: center;
+  margin: 0;
 }
 
-#boom {
+h1 {
+  font-size: 24px;
+  color: #ff7315;
+  margin-bottom: 20px;
+}
+
+#randomimage {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border: 4px solid #fff;
+  border-radius: 10px;
+}
+
+#formulaire {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+input[type="number"] {
+  padding: 5px;
+  width: 60px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: #ff7315;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+  background-color: #ff7f00;
+}
+
+small {
+  display: block;
+  color: #ff7f00;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+#instructions {
+  text-align: left;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.img2 {
+  width: 10rem;
+  display: block;
+}
+
+#boom, #more, #less, #loose {
   display: none;
-}
-
-#more {
-  display: none;
-}
-
-#less {
-  display: none;
-}
-
-#loose{
-    display: none;
 }
