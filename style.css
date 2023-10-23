@@ -82,3 +82,8 @@ small {
 #boom, #more, #less, #loose {
   display: none;
 }
+
+h1{
+  background-color: yellow;
+  border-radius: 2.5rem;
+}
